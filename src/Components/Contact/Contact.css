@@ -1,0 +1,70 @@
+.contact{
+    height: 95vh;
+}
+.contact h2{
+    color: #2C3E50;
+    font-size: 40px;
+    font-weight: 700;
+}
+.line-contact::before {
+    content: " ";
+    width: 75px;
+    height: 4px;
+    background-color: #2C3E50;
+    position: absolute;
+    top: 40%;
+    left: 42%;
+}
+.line-contact i {
+    color: #2C3E50;
+}
+.line-contact::after {
+    content: " ";
+    width: 75px;
+    height: 4px;
+    background-color: #2C3E50;
+    position: absolute;
+    top: 40%;
+    right: 42%;
+}
+.contact .form-control{
+    width: 50%;
+    margin-top: 20px;
+    padding: 10px 0;
+    border-radius: 2px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+input.form-control:focus{
+    outline: none;
+    border-color: transparent;
+    box-shadow: none;
+}
+.btn-custom {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #1ABC9C;
+    --bs-btn-border-color: #1ABC9C;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #1ABC9C;
+    --bs-btn-hover-border-color: #1ABC9C;
+}
+
+@media (max-width:768px){
+.contact h2 {
+    font-size: 30px;
+    }
+.line-contact::before {
+    position: absolute;
+    top: 40%;
+    left: 55%;
+}
+.line-contact::after {
+    position: absolute;
+    top: 40%;
+    right: 55%;
+}
+.contact .form-control {
+    width: 90%;
+}
+}

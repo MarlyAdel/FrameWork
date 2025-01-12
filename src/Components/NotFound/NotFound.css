@@ -1,0 +1,9 @@
+.NotFound{
+    height: 90vh;
+    background-color: #F1F1F1;
+}
+.NotFound-content h1{
+    font-size: 60px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}

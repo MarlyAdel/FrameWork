@@ -1,0 +1,31 @@
+.navbar{
+    background-color: #2C3E50;
+    transition: all 0.3s ease;
+}
+.navbar.scrolled {
+    padding: 0;
+}
+.navbar-brand{
+    font-size: 32px;
+    font-weight: 700;
+}
+.nav-link{
+    font-weight: 700;
+}
+.active{
+    border: 1px solid #1ABC9C;
+    padding: 8px 10px;
+    border-radius: 6px;
+    background-color: #1ABC9C;
+}
+@media (max-width:768px) {
+.navbar-brand {
+    font-size: 25px;
+}
+.navbar-nav {
+    padding-top: 20px;
+}
+.nav-link{
+    margin-top: 15px;
+}
+}

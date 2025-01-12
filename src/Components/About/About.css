@@ -1,0 +1,43 @@
+.about{
+    background-color: #1ABC9C;
+    height: 100vh;
+}
+.about h2{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.line::before {
+    content: " ";
+    width: 75px;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    top: 40%;
+    left: 160%;
+}
+.line i {
+    color: white;
+}
+.line::after {
+    content: " ";
+    width: 75px;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    top: 40%;
+    right: 160%;
+}
+.pharagraph{
+    width: 88%;
+}
+
+@media (max-width:768px){
+    .about h2 {
+        font-size: 30px;
+    }
+    .pharagraph {
+        width: 70%;
+      margin-left: 50px;  
+    }
+}
